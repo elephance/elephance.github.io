@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["InvPtr","InvPtrBuilder","ResolvedImmutablePtr","ResolvedMutablePtr","ResolvedPtr"]};
+window.SIDEBAR_ITEMS = {"struct":["InvPtr","InvPtrBuilder","InvSlice","ResolvedMutablePtr","ResolvedMutableSlice","ResolvedPtr","ResolvedSlice"]};

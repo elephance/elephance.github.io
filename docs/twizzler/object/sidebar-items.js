@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["fot","meta"],"struct":["ImmutableObject","IsImmutable","IsMutable","MutableObject","Object","ObjectBuilder","UninitializedObject"],"trait":["BaseType","InitializedObject","RawObject"]};
+window.SIDEBAR_ITEMS = {"mod":["fot","meta"],"struct":["ImmutableObject","IsImmutable","MutableObject","Object","ObjectBuilder","UninitializedObject"],"trait":["BaseType","InitializedObject","RawObject"]};

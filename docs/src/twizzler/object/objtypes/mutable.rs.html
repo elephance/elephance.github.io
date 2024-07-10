@@ -82,12 +82,12 @@
 <span class="kw">use </span>twizzler_abi::meta::MetaInfo;
 <span class="kw">use </span>twizzler_runtime_api::ObjectHandle;
 
-<span class="kw">use super</span>::{InitializedObject, Object, RawObject};
+<span class="kw">use super</span>::{ImmutableObject, InitializedObject, Object, RawObject};
 <span class="kw">use </span><span class="kw">crate</span>::object::{base::BaseRef, BaseType};
 
 <span class="kw">pub struct </span>MutableObject&lt;Base: BaseType&gt; {
     handle: ObjectHandle,
-    _pd: PhantomData&lt;<span class="kw-2">*const </span>Base&gt;,
+    _pd: PhantomData&lt;<span class="kw-2">*mut </span>Base&gt;,
 }
 
 <span class="kw">impl</span>&lt;Base: BaseType&gt; MutableObject&lt;Base&gt; {
@@ -129,11 +129,11 @@
         <span class="macro">todo!</span>()
     }
 
-    <span class="kw">fn </span>meta(<span class="kw-2">&amp;</span><span class="self">self</span>) -&gt; MetaInfo {
+    <span class="kw">fn </span>meta(<span class="kw-2">&amp;</span><span class="self">self</span>) -&gt; <span class="kw-2">&amp;</span>MetaInfo {
         <span class="macro">todo!</span>()
     }
 
-    <span class="kw">fn </span>freeze(<span class="kw-2">&amp;</span><span class="self">self</span>) -&gt; <span class="prelude-ty">Result</span>&lt;<span class="kw">super</span>::ImmutableObject&lt;<span class="self">Self</span>::Base&gt;, ()&gt; {
+    <span class="kw">fn </span>freeze(<span class="kw-2">&amp;</span><span class="self">self</span>) -&gt; <span class="prelude-ty">Result</span>&lt;ImmutableObject&lt;<span class="self">Self</span>::Base&gt;, ()&gt; {
         <span class="macro">todo!</span>()
     }
 }

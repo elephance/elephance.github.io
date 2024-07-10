@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["alloc","memobj"]};
+window.SIDEBAR_ITEMS = {"mod":["alloc","collections","memobj","object","ptr","tx"]};

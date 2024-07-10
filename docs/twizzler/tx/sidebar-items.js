@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"enum":["TxError"],"struct":["TxObjectCell"],"trait":["ReadHandle","TxHandle"],"type":["TxResult"]};
+window.SIDEBAR_ITEMS = {"enum":["TxError"],"struct":["TxObjectCell"],"trait":["TxHandle"],"type":["TxResult"]};

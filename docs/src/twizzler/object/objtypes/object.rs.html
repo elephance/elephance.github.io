@@ -57,6 +57,10 @@
 <a href="#57" id="57">57</a>
 <a href="#58" id="58">58</a>
 <a href="#59" id="59">59</a>
+<a href="#60" id="60">60</a>
+<a href="#61" id="61">61</a>
+<a href="#62" id="62">62</a>
+<a href="#63" id="63">63</a>
 </pre></div><pre class="rust"><code><span class="kw">use </span>std::marker::PhantomData;
 
 <span class="kw">use </span>twizzler_abi::meta::MetaInfo;
@@ -82,8 +86,13 @@
         <span class="macro">todo!</span>()
     }
 
-    <span class="comment">// TODO: error type
-    </span><span class="kw">pub fn </span>immutable(<span class="self">self</span>) -&gt; <span class="prelude-ty">Result</span>&lt;ImmutableObject&lt;Base&gt;, ()&gt; {
+    <span class="doccomment">/// Convert this handle to an immutable handle.
+    ///
+    /// This function treats the current object handle as immutable, without creating a new
+    /// immutable object. This means that this underlying handle will not have any data modified,
+    /// but the underlying memory object may still change. If you want to create a new, truely
+    /// immutable object, see [InitializedObject::freeze].
+    </span><span class="kw">pub fn </span>immutable(<span class="self">self</span>) -&gt; ImmutableObject&lt;Base&gt; {
         <span class="macro">todo!</span>()
     }
 }
@@ -95,9 +104,8 @@
         <span class="macro">todo!</span>()
     }
 
-    <span class="kw">fn </span>meta(<span class="kw-2">&amp;</span><span class="self">self</span>) -&gt; MetaInfo {
-        <span class="comment">// requires checking for tears (no version bumps)
-        </span><span class="macro">todo!</span>()
+    <span class="kw">fn </span>meta(<span class="kw-2">&amp;</span><span class="self">self</span>) -&gt; <span class="kw-2">&amp;</span>MetaInfo {
+        <span class="macro">todo!</span>()
     }
 
     <span class="kw">fn </span>freeze(<span class="kw-2">&amp;</span><span class="self">self</span>) -&gt; <span class="prelude-ty">Result</span>&lt;ImmutableObject&lt;<span class="self">Self</span>::Base&gt;, ()&gt; {
