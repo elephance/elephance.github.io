@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["CreateError","ObjectInitError"],"mod":["marker","meta","ptr","slot"],"struct":["CreateSpec","ObjID","Object","ObjectInitFlags","Protections"]};

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["DynlinkErrorKind","HeaderError"],"mod":["compartment","context","engines","library","symbol","tls"],"struct":["DynlinkError"]};

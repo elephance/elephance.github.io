@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["QueueError"],"fn":["multi_receive"],"struct":["QueueBase","QueueEntry","RawQueue","RawQueueHdr","ReceiveFlags","SubmissionFlags"]};

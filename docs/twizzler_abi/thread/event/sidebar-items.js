@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["MAX_AUX_DATA"],"struct":["AsyncEvent","AsyncEventCompletion","AsyncEventCompletionFlags","AsyncEventFlags"]};

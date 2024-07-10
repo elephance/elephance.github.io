@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["MMIO_OFFSET","NUM_DEVICE_INTERRUPTS"],"enum":["BusType","CacheType","DeviceType","MailboxPriority","SubObjectType"],"mod":["bus"],"struct":["DeviceId","DeviceInterrupt","DeviceInterruptFlags","DeviceRepr","InterruptVector","MmioInfo"]};

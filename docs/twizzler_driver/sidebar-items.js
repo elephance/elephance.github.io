@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["get_bustree_root"],"mod":["bus","device","dma","request"],"struct":["BusTreeRoot","DeviceController"]};

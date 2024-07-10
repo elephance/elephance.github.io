@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["InvPtr","InvPtrBuilder","ResolvedImmutablePtr","ResolvedMutablePtr","ResolvedPtr"]};

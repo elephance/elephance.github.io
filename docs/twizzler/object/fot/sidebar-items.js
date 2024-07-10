@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["FotError"],"struct":["FotEntry","FotFlags","FotResolve","ResolveRequest"],"type":["ResolverFn"]};
